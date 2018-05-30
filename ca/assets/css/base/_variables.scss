@@ -1,0 +1,63 @@
+/* ==== COLORS ==== */
+$white-color: rgb(255, 255, 255);
+$offwhite-color: rgb(248, 248, 248);
+
+$gray-color: rgb(151, 151, 151);
+$darkgray-color: darken($gray-color, 8%);
+$lightgray-color: lighten($gray-color, 16%);
+
+$black-color: rgb(8, 8, 8);
+
+$parchment-color: rgb(243, 242, 239);
+$brown-color: rgb(93, 69, 55);
+$lightbrown-color: rgb(204, 186, 137);
+$red-color: rgb(146, 2, 2);
+$bronze-color: rgb(115, 77, 42);
+$blue-color: #314075;
+
+$gold-color: rgb(234, 233, 186);
+$lightgold-color: rgb(235, 230, 212);
+$beige-color: rgb(255, 255, 224);
+
+$primary-color: $brown-color;
+$secondary-color: $red-color;
+$border-color: $lightgray-color;
+
+/* ==== SIZES ==== */
+$base-font-size: 16px;
+$base-line-height: 1.4;
+$alt-letter-spacing: 1px;
+
+/* ==== BACKGROUNDS/SVG/BORDER IMG SOURCES ==== */
+$header-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/header_bg.jpg";
+$cigarwatch-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/cigarwatch_bg.jpg";
+
+$mobile-nav-news-svg: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/svg/news.svg";
+$mobile-nav-culture-svg: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/svg/culture.svg";
+$mobile-nav-ratings-svg: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/svg/ratings.svg";
+$mobile-nav-magazine-svg: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/svg/magazine.svg";
+$mobile-nav-cig101-svg: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/svg/cig101.svg";
+
+$article-subtitle-border: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/article-subtitle-border.png";
+$ratings-header-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/ratingssearch-bg.jpg";
+
+/* ==== NEW ADs ==== */
+$ad-1x1-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/1x1-450x450.jpg";
+$ad-1x2-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/1x2-450x900.jpg";
+$ad-4x1-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/4x1-1320x330.jpg";
+$ad-6x1-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/6x1-450x75.jpg";
+$ad-8x1-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/8x1-1200x150.jpg";
+
+/* ==== OLD ADs ==== */
+$ad-leaderboard-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/wts-leaderboard.jpg";
+$ad-medium-background: "https://s3.amazonaws.com/assets.mshanken.com/ca/static-imgs/wts-300x250.jpg";
+
+/* ==== DECLARATIONS ==== */
+$box-shadow: 0 1px 4px rgba($black-color, 0.4);
+$box-shadow_darken: 0 1px 6px rgba($black-color, 0.62);
+$box-shadow_btn: 0 1px 2px rgba($black-color, 0.32);
+$box-shadow_inset: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+
+/* ==== FONTS IMPORT ==== */
+/*@import url('https://fonts.googleapis.com/css?family=Domine|Open+Sans:300,400,600,700');*/
+@import url("https://fonts.googleapis.com/css?family=Domine|Roboto:400,700");

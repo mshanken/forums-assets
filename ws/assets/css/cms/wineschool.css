@@ -1,0 +1,999 @@
+
+.loginText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+
+
+
+.leftnavText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left: 10px;
+
+
+	padding-top: 7px;
+
+
+	}
+
+
+
+
+
+.footerText1 {
+
+
+	font-size: 15px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #663366;
+
+
+	}
+
+
+
+
+
+.footerText2 {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #663366;
+
+
+	}
+
+
+
+
+
+.footerCopyright {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #000000;
+
+
+	}
+
+
+
+
+
+.newsheadText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+
+
+
+.featureText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+.popupText{
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+.date {
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	font-size: 11px;
+
+
+	color: #663366;
+
+
+	margin-top: 3px;
+
+
+	margin-right: 5px;
+
+
+	}
+
+
+
+
+
+.welcomeText {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #663366;
+
+
+	}
+
+
+
+
+
+.statusText {
+
+
+	font-size: 10px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #663366;
+
+
+	}
+
+
+
+
+
+.messageLink {
+
+
+	font-size: 10px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #000000;
+
+
+	text-decoration: none;
+
+
+	}
+
+
+	
+
+
+.COURSEpage {
+
+
+	padding-left:20px;
+
+
+	padding-top:20px;
+
+
+	padding-right:20px;
+
+
+	padding-bottom:10px
+
+
+	}
+
+
+
+
+
+.COURSEpageNavBot {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #663366;
+
+
+	}
+
+
+
+
+
+.COURSEpageTitle { 
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left: 10px
+
+
+	}
+
+
+	
+
+
+.topLevelText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left: 20px;
+
+
+	padding-right: 6px
+
+
+	}
+
+
+	
+
+
+.tourText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left: 9px;
+
+
+	}
+
+
+	
+
+
+.topLevelText2 {
+
+
+	font-size: 15px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left: 20px;
+
+
+	padding-right: 6px
+
+
+	}
+
+
+	
+
+
+.tableText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+
+
+
+.formError {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color: #FF0000;
+
+
+	font-weight: bold;
+
+
+	}
+
+
+
+
+
+.paddedText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-right: 15px;
+
+
+	}
+
+
+	
+
+
+.glossaryHeader {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+ 	font-weight: bold;
+
+
+	color: #660033;
+
+
+	}
+
+
+	
+
+
+.handSub {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	 font-weight: bold;
+
+
+	}
+
+
+
+
+
+.courseText{
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	}
+
+
+
+
+
+.captionText {
+
+
+	font-size: 11px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	align : right;
+
+
+	}
+
+
+
+
+
+.popupText {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-left : 20px;
+
+
+	padding-right : 20px;
+
+
+	}
+
+
+
+
+
+.bellyContent {
+
+
+	font-size: 12px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	padding-right : 20px;
+
+
+	padding-left : 20px;
+
+
+	}
+
+
+	
+
+
+.download {
+
+
+	font-size: 9px;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color:#000000;
+
+
+	}
+
+
+	
+
+
+.labels {
+
+
+	font-size: 15px;
+
+
+	font-weight: bold;
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	color:#000000;
+
+
+	}
+
+
+
+
+
+.listText {
+
+
+	font-family: arial,helvetica,sans-serif;
+
+
+	font-size: 11px;
+
+
+	color: #000000;
+
+
+	padding-left: 10px;
+
+
+	text-indent : -7px;
+
+
+	margin-right : -7px;
+
+
+}
+
+
+
+
+
+/* Start changes/additions for the approved layouts*/
+
+
+
+
+
+
+
+
+
+
+
+.blk11			{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					text-decoration: none;
+
+					}
+
+
+
+.olive11		{	font-family: Arial,Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #6C5317;
+
+					line-height: 16px;
+
+					}	
+
+					
+
+.olive11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #6C5317;
+
+					font-weight: bold;
+
+					}		
+
+								
+
+.olive12		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #6C5317;
+
+					line-height: 14px;
+
+					}	
+
+					
+
+.olive12bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #6C5317;
+
+					font-weight: bold;
+
+					}		
+
+					
+
+.black11		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #000000;
+
+					}	
+
+					
+
+.black11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #000000;
+
+					font-weight: bold;
+
+					}	
+
+					
+
+.black12		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #000000;
+
+					line-height: 14px;
+
+					}	
+
+					
+
+.black12bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #000000;
+
+					font-weight: bold;
+
+					}	
+
+					
+
+.black14		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 14px; 
+
+					color: #000000;
+
+					line-height: 14px;
+
+					}	
+
+					
+
+.black14bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 14px; 
+
+					color: #000000;
+
+					font-weight: bold;
+
+					}	
+
+					
+
+.green11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #1E4805;
+
+					font-weight: bold;
+
+					}				
+
+					
+
+.green12		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #1E4805;
+
+					line-height: 14px;
+
+					}		
+
+					
+
+					
+
+.red11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #8C2431;
+
+					font-weight: bold;
+
+					}	
+
+							
+
+.brown11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #6A5C01;
+
+					font-weight: bold;
+
+					}	
+
+								
+
+.brown12bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #6A5C01;
+
+					font-weight: bold;
+
+					}									
+
+
+
+								
+
+.tan11			{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #8E8E7D;
+
+					}							
+
+					
+
+.copyright			{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #BEBDAE;
+
+					}					
+
+					
+
+					
+
+a.red11			{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #8C2431;
+
+					}
+
+					
+
+					
+
+a.red11bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #8C2431;
+
+					font-weight: bold;
+
+					}
+
+					
+
+a.red12			{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #8C2431;
+
+					line-height: 14px;
+
+					}
+
+					
+
+a.red12bd		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #8C2431;
+
+					font-weight: bold;
+
+					line-height: 14px;
+
+					}
+
+					
+
+a.footer1		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 12px; 
+
+					color: #493E31;
+
+					}
+
+					
+
+					
+
+a.footer2		{	font-family: Arial, Helvetica, sans-serif;  
+
+					font-size: 11px; 
+
+					color: #A5A590;
+
+}
+
+
+
+
+.navigationlinks {  
+  color: #990000; 
+  text-decoration: none;
+}
+
+
+
+
+
+
+ul.wineschool_cms_navigation {
+  width:1000px;
+  list-style-type:none;
+  float:left;
+  overflow:hidden;
+  background-color:#ddf;
+  padding:1px; 
+  margin:0 0 15px 20px;
+  clear:both;
+  font-size:10px; 
+}
+
+ul.wineschool_cms_navigation li {
+  float:left;
+  border-right:1px solid #444444;
+  list-style:none outside none;
+  padding:0px 13px;
+  margin:0;
+  outline:medium none;
+}
+
+ul.wineschool_cms_navigation li a:link,
+ul.wineschool_cms_navigation li a:visited,
+ul.wineschool_cms_navigation li a:hover {
+  padding:0px;
+  margin:0px;
+  font-size:12px; 
+}
+
+
+
+
+.odd {
+  background-color:#eee;
+  padding:2px;
+}
+
+.even {
+  background-color:#ccc;
+  padding:2px; 
+}
+
+
+
+
+#container_for_cms_forms {
+  width: 800px;
+}
+
+#container_for_cms_forms input {
+  width: 500px;
+}
+
+
+#container_for_cms_forms textarea {
+  width: 500px;
+  height: 600px; 
+}
+
+
+#list_of_pages {
+  width:200px;
+  float:right;
+  list-style:none;
+}
+
+
+
+.company_user_quiz_list {
+  list-style-type:none;
+  float:left;
+  overflow:hidden;
+  padding:0px;
+  margin:0px;
+  clear:both;
+  font-size:12px;
+  display:block;
+  width:1200px; 
+}
+
+.company_user_quiz_list li {
+  width:120px; 
+  float:left;
+  border-right:1px solid #444444;
+  list-style:none outside none;
+  padding:2px 13px;
+  margin:0;
+  outline:medium none;
+}
+
+#company_user_quiz_list_headings {
+  font-weight: bold;
+}
+
+
+#letterListForUsers {
+  list-style-type:none;
+  float:left;
+  padding:4px;
+  margin:0px;
+  clear:both;
+  display:block;
+  width:1200px; 
+}
+
+#letterListForUsers li {
+  float:left;
+  list-style:none outside none;
+  padding:2px 7px;
+}
+
+
+.wss td {
+  border: none;
+}
+
+
+#list_of_all_school_courses_and_classes {
+  display:none;
+  border-style:solid;
+  border-width:1px;
+  border-color:#000;
+  width:600px;
+  background-color:#ffe;
+  position:absolute;
+  z-index:100;
+  padding:30px;
+}

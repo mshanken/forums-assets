@@ -1,0 +1,46 @@
+/* Print */
+#wrapper, #header, #contentBox, #wideContentBox
+{
+	margin:0;
+	padding:0;
+	float:none;
+	width:auto;
+}
+#header .wsLogo img
+{
+	display:none;
+}
+#leftCol,#rightCol
+{
+	width:49%;
+}
+.module, .moduleLarge
+{
+	background:none;
+	 border:none;
+	 width:99%;
+}
+#adsBox, #footer, #adimgleft, #adimgright, #leaderBannerAd, .topUserMenu, .wsMenuBar, .moduleOpen, .moduleClose, .moduleLargeOpen, .moduleLargeClose, .navMenuBox, .contentFooter, .forMembersBox, .tabMenu
+{
+	display:none;
+}
+.topTitle span
+{
+	padding:0;
+}
+a:link, a:active, a:visited, a:hover, .module a:link, .module a:active, .module a:visited, .module a:hover, .moduleLarge a:link, .moduleLarge a:active, .moduleLarge a:visited, .moduleLarge a:hover
+{
+	color:#00c;
+}
+h1, h2, h3, h4, h5, h6, .fontColor2, .fontColor3, .fontColor4
+{
+	color:#000;
+}
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, td, .module h1, .module h2, .module h3, .module h4, .module h5, .module h6, .module p, .module li, .module dt, .module dd, .module td, .moduleLarge h1, .moduleLarge h2, .moduleLarge h3, .moduleLarge h4, .moduleLarge h5, .moduleLarge h6, .moduleLarge p, .moduleLarge li, .moduleLarge dt, .moduleLarge dd, .moduleLarge td
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.module p, .module li, .module dt, .module dd, .module td, .moduleLarge p, .moduleLarge li, .moduleLarge dt, .moduleLarge dd, .moduleLarge td
+{
+	font-size:10pt;
+}

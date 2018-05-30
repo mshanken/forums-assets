@@ -1,0 +1,539 @@
+/* ============= ARTICLE ENTRY STYLES ============= */
+
+.article_share {
+  @extend .flex-row;
+  float: none;
+  width: 100%;
+  padding: 0;
+  margin: 2em 0 0 0;
+  list-style: none;
+  border: 1px solid rgba($border-color, 0.64);
+
+  @include bp-small {
+    float: right;
+    width: 225px;
+    margin-top: 0;
+  }
+}
+
+.article_share li {
+  @extend .flex-item;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid rgba($border-color, 0.64);
+}
+
+.article_share li:first-of-type {
+  border-left: none;
+}
+
+.article_share li a {
+  display: block;
+  color: $gray-color;
+  padding: 0.4em 0.5em 0.32em;
+  margin: 0;
+  text-align: center;
+  background-color: transparent;
+
+  &:hover {
+    color: $white-color;
+    background-color: $red-color;
+  }
+}
+
+.article_share li a > i.fa {
+  @include font-size(23px);
+}
+
+.article_category {
+  @extend .content-card_header;
+  margin-bottom: 0;
+  padding-top: 4px;
+
+  @include bp-small {
+    margin-bottom: 28px;
+    padding-top: 0;
+  }
+}
+
+.article_title {
+  @include font-size(35px);
+  margin: 1em 0 0.42em;
+  padding: 0;
+
+  @include bp-small {
+    @include font-size(48px);
+    margin: 0.32em 0 0.42em;
+  }
+}
+
+.article_info {
+  margin: 0 0 0.56em;
+  padding: 0;
+
+  @include bp-small {
+    @include font-size(18px);
+    letter-spacing: $alt-letter-spacing;
+  }
+}
+
+.article_info p {
+  margin: 0;
+  padding: 0;
+}
+
+.article_info li {
+  padding: 0;
+  margin: 0 0 0.32em;
+  display: inline-block;
+
+  @include bp-small {
+    margin: 0;
+  }
+}
+
+.print-title {
+  margin: 0 0 0.56em;
+  padding: 0;
+
+  @include bp-small {
+    @include font-size(18px);
+    letter-spacing: $alt-letter-spacing;
+  }
+}
+
+.article_date {
+  text-transform: uppercase;
+}
+
+.article_image-wrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  margin: 0.56em 0 1em 0;
+  padding: 0 0 56.25%;
+  background-color: $white-color;
+}
+
+.article_image-wrapper img {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.article_image_vertical {
+  display: block;
+  float: none;
+  margin: 0 0 2em;
+  width: 100%;
+  border: 1px solid rgba($border-color, 0.56);
+
+  @include bp-small {
+    display: inline-block;
+    float: left;
+    margin: 0 1.56em 1em 0;
+    width: 34%;
+  }
+
+  .article_image-credit {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0.64em;
+    color: $white-color;
+    background-color: rgba($black-color, 1);
+    @extend .small;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .article_image-caption {
+    padding: 0 0.64em;
+    margin: 1em 0;
+    @extend .small;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.article_image_vertical img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.article_image-credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0.64em;
+  color: $white-color;
+  background-color: rgba($black-color, 0.72);
+  @extend .small;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.article_image-caption {
+  padding: 0;
+  margin: 0 0 1em;
+
+  @include bp-small {
+    padding: 0 2em;
+    margin: 0 0 1.56em 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.article_subtitle {
+  @include font-size(20px);
+  font-style: italic;
+  margin: 0 0 2em;
+  padding: 0;
+
+  @include bp-small {
+    padding: 1em 1em 2em;
+    margin: 0;
+    @include font-size(32px);
+    font-style: italic;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.article_subtitle hr {
+  display: block;
+  max-width: 220px;
+  margin: 1.56em auto 0;
+  border: 3px solid white;
+  border-image-source: url($article-subtitle-border);
+  border-image-slice: 6 0;
+  border-image-repeat: round;
+}
+
+.article_content {
+  @extend %clearfix;
+  margin: 0;
+  padding: 1em 0;
+  line-height: 1.5;
+  font-size: inherit;
+  position: relative;
+
+  @include bp-large {
+    @include font-size(17.5px);
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+
+.article_content {
+  blockquote {
+    background: transparent;
+    border: none;
+    margin: 2em 0 1em;
+    padding: 0 1em;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-family: "Domine", serif;
+    font-weight: bold;
+    line-height: 1.1;
+    @include font-size(22px);
+
+    @include bp-small {
+      @include font-size(32px);
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      display: inline;
+    }
+
+    &:before {
+      color: $black-color;
+      content: open-quote;
+      @include font-size(88px);
+      line-height: 0.24em;
+      margin-right: 4px;
+      vertical-align: -0.32em;
+    }
+
+    &:after {
+      color: $black-color;
+      content: close-quote;
+      @include font-size(88px);
+      line-height: 0.24em;
+      margin-left: 4px;
+      vertical-align: -0.6em;
+    }
+  }
+}
+
+.page_content {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: inherit;
+  position: relative;
+
+  @include bp-large {
+    @include font-size(17.5px);
+    padding: 0 2.32em 0 0;
+  }
+}
+
+.article_content p > a,
+.page_content p > a {
+  /* from: https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.article_content p:first-of-type:first-letter {
+  @extend .heading;
+  float: left;
+  @include font-size(84px);
+  line-height: 0.8;
+  padding: 5px 8px 2px 0;
+  margin: 0;
+}
+
+.article_tags,
+.article_tags li {
+  list-style-type: none;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+.article_tags > li {
+  display: inline-block;
+  margin: 0 0.42em 0.56em 0;
+  padding: 0;
+
+  a {
+    text-transform: uppercase;
+    background-color: rgba($gray-color, 0.1);
+    border: 1px solid rgba($gray-color, 0.18);
+    border-radius: 3px;
+    padding: 0.24em 1.24em;
+    margin: 0;
+    display: block;
+    @include font-size(14px);
+
+    &:hover {
+      border-color: rgba($gray-color, 0.2);
+      background-color: rgba($gray-color, 0.18);
+    }
+  }
+}
+
+/* ============= ARTICLE BLOCK EFFECT ============= */
+
+.fade-block,
+.article-fade {
+  position: relative;
+}
+
+.fade-block:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  pointer-events: none;
+}
+
+.article-fade:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  width: 100%;
+  content: "";
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 8%,
+    rgba(255, 255, 255, 0) 88%
+  );
+  pointer-events: none;
+}
+
+/* ============= READ MORE FOR ARTICLES ============= */
+
+.article-read-more {
+  padding: 0.56em 1em;
+  margin: 0 auto;
+  width: 100%;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  border-radius: 3px;
+  border: 1px solid $border-color;
+  box-shadow: $box-shadow_btn;
+}
+
+/* ============= READ MORE CSS ============= */
+.article_content + [data-readmore-toggle],
+.article_content[data-readmore] {
+  display: block;
+  width: 100%;
+}
+.article_content[data-readmore] {
+  transition: height 100ms;
+  overflow: hidden;
+}
+
+/* ============= INLINE STYLES FOR EDITORS ============= */
+
+.article-photo {
+  margin: 2em 0 1em;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+
+  a {
+    display: block;
+    color: $white-color;
+  }
+}
+
+.article-photo img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.article-photo-credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba($black-color, 0.72);
+  color: $white-color;
+  margin: 0;
+  padding: 0.32em 1em;
+  @extend .small;
+  line-height: 0.88;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.article-photo-caption {
+  padding: 0 2em;
+  margin: 0.32em 0 2em 0;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ============= LEGACY COMMENTS STYLES ============= */
+
+.legacy-comments_container {
+  @extend .small;
+  box-shadow: $box-shadow;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.legacy-comments_header {
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-transform: uppercase;
+  @include font-size(14px);
+  font-weight: bold;
+}
+
+.legacy-comments_body {
+  div {
+    padding: 1em 0;
+    border-bottom: 1px solid $border-color;
+  }
+  div:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+/* ============= AUTHOR LISTING TEMPLATE STYLES ============= */
+
+.author-figure img {
+  margin: 0 0 1.56em;
+  padding: 0;
+  box-shadow: $box-shadow;
+
+  @include bp-small {
+    margin: 0;
+  }
+}
+
+.author-content {
+  margin: 0 0 1.56em;
+  padding: 0;
+
+  @include bp-small {
+    margin: 0;
+  }
+}
+
+.author-social {
+  @extend .list-inline;
+}
+
+.author-social li a {
+  margin: 0;
+  display: block;
+  border-radius: 50%;
+  box-shadow: $box-shadow_btn;
+
+  .fa {
+    @include font-size(36px);
+  }
+}
+
+#author-twitter-link {
+  padding: 8px 11px;
+}
+
+#author-instagram-link {
+  padding: 8px 12px;
+}

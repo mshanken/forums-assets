@@ -1,0 +1,123 @@
+/* ============= SIGN IN ============= */
+
+.checkbox,
+.forgot-password {
+  @extend .small;
+}
+
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  margin-left: 0;
+}
+
+.forgot-password {
+  margin: 10px 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+
+/* ============= MANAGE ACCOUNT ============= */
+
+#manageAccountForm {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.manage-account-btn {
+  margin-bottom: 0.56em;
+}
+
+/* ============= REGISTRATION & CONTACT FORMS ============= */
+
+.register-form {
+  text-align: center;
+  margin: 2em 0;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.contact-form-fields {
+  margin: 2em 0;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.required-msg {
+  color: $red-color;
+  font-weight: bold;
+  padding: 0 0 1em;
+}
+
+#regFormFields,
+#contactFormFields {
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  text-align: left;
+}
+
+#regFormFields input[type="submit"] {
+  max-width: 240px;
+  margin: 2em auto;
+}
+
+/* ============= PASSWORD ============= */
+
+.change-password-form button[type="submit"] {
+  max-width: 200px;
+  margin: 1.32em auto;
+}
+
+/* ============= PERSONAL HUMIDOR ============= */
+
+.humidor-controls {
+  margin: 0 0 1em;
+  padding: 0;
+  i.fa {
+    margin-right: 0.32em;
+  }
+}
+
+.humidor-links {
+  margin: 0 0 1em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 4px;
+  i.fa {
+    margin-right: 0.32em;
+  }
+}
+
+.humidor-links_heading {
+  margin: 0 0 0.32em;
+  padding: 0 0 0.32em;
+  border-bottom: 1px solid $border-color;
+  text-transform: capitalize;
+}
+
+.humidor-links > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    padding: 0;
+    margin: 0.32em 1em;
+  }
+}
+
+.humidor-extras {
+  padding: 1em 0 0;
+}
+
+.humidor-checkbox label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.humidor-checkbox input[type="checkbox"] {
+  margin-left: -1.56em;
+}

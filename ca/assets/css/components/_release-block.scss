@@ -1,0 +1,21 @@
+.release-block {
+  h5 {
+    color: $red-color;
+    text-align: center;
+    margin: 1em 0 0.72em;
+    padding: 0;
+  }
+  &_buttons {
+    text-align: center;
+    margin: 0 auto;
+    .content-card_btn {
+      @include font-size(13px);
+      margin: 0.56em 0.64em 1em;
+      display: block;
+
+      @include bp-medium {
+        display: inline-block;
+      }
+    }
+  }
+}

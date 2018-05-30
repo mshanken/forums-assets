@@ -1,0 +1,760 @@
+/* ******** Copyright © 2008 M. Shanken Communications Inc. ******** */
+/* 		 	All other modules are defined here			   */
+/* +++ Start: Standard Module Type +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.module, .moduleLarge, #wideContentBox .module, #wideContentBox .moduleLarge
+{
+	text-align:left;
+	/*border-left:2px solid #ccc;
+	border-right:2px solid #ccc;*/
+}
+.module a:link, .moduleLarge a:link, .module a:active, .moduleLarge a:active, .module a:visited, .moduleLarge a:visited, .module a:hover, .moduleLarge a:hover
+{
+	border-bottom:none;
+}
+.moduleOpen
+{
+	background:url(/images/moduleTopBg.gif) no-repeat #fff;
+	margin-top:12px;
+}
+.moduleClose
+{
+	background:url(/images/moduleBtmBg.gif) no-repeat #fff;
+	margin-bottom:12px;
+}
+.mCentered
+{
+	margin:auto;
+}
+/* +++ Start: Standard Module Large Type +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleLargeOpen
+{
+	clear:both;
+	background:url(/images/moduleTopLgBg.gif) 0 0 no-repeat #fff;
+	margin-top:12px;
+}
+.moduleLargeClose
+{
+	background:url(/images/moduleBtmLgBg.gif) 0 0 no-repeat #fff;
+	margin-bottom:12px;
+}
+/* +++ Start: Module Long +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleLongOpen
+{
+	background-image:url(/images/moduleSearchLongOpen.gif);
+	margin-top:0;
+}
+/* +++ Start: Module Promo +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.modulePromoOpen
+{
+	clear:both;
+	background-image:url(/images/moduleTopPromoBg.gif);
+}
+.modulePromoClose
+{
+	background-image:url(/images/moduleBtmPromoBg.gif);
+}
+.modulePromo
+{
+	background-color:#ddd;
+	border-color:#ccc;
+}
+/* +++ Start: Module Promo small box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.modulePromoSmallOpen
+{
+	background-image:url(/images/moduleTopPromoBg.gif);
+}
+.modulePromoSmallClose
+{
+	background-image:url(/images/moduleBtmPromoBg.gif);
+}
+.modulePromoSmall
+{
+	background-color:#ddd;
+	border-color:#ccc;
+}
+/* +++ Start: Module Small +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleSmallOpen, .moduleSmallClose, .moduleSmall2Open, .moduleSmall2Close
+{
+	width:626px;
+	height:8px;
+	margin:0 auto;
+}
+.moduleSmallOpen
+{
+	background-image:url(/images/moduleSmallTop.gif);
+}
+.moduleSmall2Open
+{
+	background-image:url(/images/moduleSmall2Top.gif);
+}
+.moduleSmallClose
+{
+	background-image:url(/images/moduleSmallBtm.gif);
+}
+.moduleSmall2Close
+{
+	background-image:url(/images/moduleSmall2Btm.gif);
+}
+.moduleSmall, .moduleSmall2
+{
+	width:620px;
+	background-color:#900;
+	margin:0 auto;
+	padding:0 3px;
+}
+.moduleSmall2
+{
+	background-color:#ccc;
+}
+/* +++ Start: Module Search +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleSearchOpen
+{
+	background-image:url(/images/searchBox1Open.gif);
+}
+.moduleSearchClose
+{
+	background-image:url(/images/searchBox1Close.gif);
+}
+.moduleSearch
+{
+	background-color:#eee;
+	border-color:#900;
+	border-left:2px solid #900;
+	border-right:2px solid #900;
+	width:658px;
+}
+.moduleSearch2
+{
+	background-color:#f6e9bd;
+	border-color:#ccc;
+}
+/* +++ Start: Module Search Large +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleSearchLargeOpen
+{
+	clear:both;
+	background-image:url(/images/searchBox1LOpen.gif);
+	margin-top:0;
+}
+.moduleSearchLargeClose
+{
+	background-image:url(/images/searchBox1LClose.gif);
+}
+/* +++ Start: Second Module Search Large +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.moduleSearch2LargeOpen
+{
+	clear:both;
+	background-image:url(/images/searchBox2LOpen.gif);
+}
+.moduleSearch2LargeClose
+{
+	background-image:url(/images/searchBox2LClose.gif);
+}
+/* +++ Start: for mambers box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.forMembersBoxOpen
+{
+	background-image:url(/images/forMembersBoxOpen.gif);
+}
+.forMembersBoxClose
+{
+	background-image:url(/images/forMembersBoxClose.gif);
+}
+.forMembersBox
+{
+	padding:1px 10px;
+	margin:0;
+	background-color:#f7e8bd;
+	width:642px;
+	border:none;
+}
+/* +++ Start: for right sided nav-box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.navMenuBox .navMenuBoxOpen, .navMenuBox .navMenuBoxClose
+{
+	width:100%;
+	_width:275px;
+	height:7px;
+	margin:0;
+	padding:0;
+}
+.navMenuBox .navMenuBoxOpen
+{
+	background:url(/images/navMenuBoxOpen.gif) 0 0 no-repeat #fff;
+}
+.navMenuBox .navMenuBoxClose
+{
+	background:url(/images/navMenuBoxClose.gif) 0 0 no-repeat #fff;
+}
+/* +++ Start: Name that game box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.nameThatGame th
+{
+	padding:7px 2px;
+	color:#c60;
+	background-color:#e3e3e3;
+}
+.nameThatGame td
+{
+	padding:4px;
+	border-bottom:1px solid #ccc;
+}
+.nameThatGame tr.correct
+{
+	background-color:#e3e3e3;
+}
+.nameThatGame td.score
+{
+	color:#666;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+/* +++ Start: Module large for wideContentBox In +++ */
+/* ------------------------------------------  ------------------------------------------
+#wideContentBox .moduleOpen
+{
+	background:url(/images/moduleWideTopBg.gif) no-repeat #fff;
+}
+#wideContentBox .moduleClose
+{
+	background:url(/images/moduleWideBtmBg.gif) no-repeat #fff;
+} */
+#wideContentBox .moduleLargeOpen, #wideContentBox .moduleLargeClose
+{
+	width:976px;
+	height:7px;
+	margin:0;
+	padding:0;
+}
+#wideContentBox .moduleLargeOpen
+{
+	clear:both;
+	background:url(/images/wideModuleLargeOpen.gif) 0 0 no-repeat #fff;
+	margin-top:12px;
+}
+#wideContentBox .moduleLargeClose
+{
+	background:url(/images/wideModuleLargeClose.gif) 0 0 no-repeat #fff;
+	margin-bottom:12px;
+}
+#wideContentBox .moduleLongOpen
+{
+	background-image:url(/images/widerModuleOpen.gif);
+	margin-top:0;
+}
+#wideContentBox .moduleLargeSearch
+{
+	width:800px;
+	margin:0;
+	padding:1px 7px;
+	text-align:left;
+	background-color:#fff;
+	border:none;
+}
+#wideContentBox .moduleSearchLargeClose
+{
+	background:url(/images/widerModuleClose.gif) 0 0 no-repeat #fff;
+}
+/* +++ Start: Vintage chart search +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.menulist
+{
+	width:194px;
+	float:right;
+	vertical-align:top;
+}
+.menulist a
+{
+	font-weight:bold;
+}
+.menulist p
+{
+	font:14px Arial, Helvetica, sans-serif;
+	margin:10px 0 10px 20px;
+}
+.menulist p.vcbreaker
+{
+	background:url(/images/vcbreaker.gif) no-repeat;
+	height:10px;
+	margin-top:-5px;
+	line-height:0;
+}
+.menulist #highlighted
+{
+	margin:0;
+	padding:15px 0 15px 20px;
+	background:url(/images/vintageitem-hl.gif) no-repeat right;
+	color:#900;
+	font-weight:bold}
+.menulist #highlighted a:link, table .menulist #highlighted a:visited
+{
+	color:#900;
+}
+.menulist p, .menulist #highlighted
+{
+	margin-left:-7px;
+	padding-left:20px;
+}
+.vintagelistOpen, .vintagelistClose, .vintagelistheader
+{
+	font:7px Arial, Helvetica, sans-serif;
+	margin:0;
+	width:100%;
+	padding:0;
+}
+.vintagelistOpen
+{
+	background-image:url(/images/vintagerightbox-top.gif);
+	height:16px;
+	margin-top:7px;
+}
+.vintagelistClose
+{
+	background-image:url(/images/vintagerightbox-bottom.gif);
+	height:15px;
+	margin-bottom:7px;
+}
+.vintagelist
+{
+	vertical-align:middle;
+	margin:0;
+	padding:0;
+}
+.vintagelist .body
+{
+	padding:1px 15px;
+	margin:0;
+	background-color:#d2d2d2;
+}
+.vintagelist .body p
+{
+	font:14px/1.5em Arial, Helvetica, sans-serif;
+}
+.vintagecontent
+{
+	padding:0 10px 0 30px;
+	background-color:#d2d2d2;
+}
+.vintagelistheader
+{
+	background:url(/images/vintagerightbox-header.gif) no-repeat #c0c0c0;
+	margin:0;
+	padding:7px 0;
+	margin-top:7px;
+}
+.vintagelistheader h2
+{
+	color:#900;
+	margin:0;
+	margin-left:10px;
+}
+.vintagelistheader h2 span
+{
+	font-size:12px;
+	float:right;
+	padding:3px;
+}
+.vintagecontenttable
+{
+	margin:0;
+	padding:0;
+	padding-left:10px;
+	background-color:#d2d2d2;
+	vertical-align:top;
+}
+.vintagecontenttable td
+{
+	padding:3px;
+}
+.vintagecontenttable th
+{
+	padding:3px;
+	color:#900;
+}
+.vintagecontenttable .border
+{
+	text-align:center;
+	border-right:1px solid #c0c0c0;
+	border-bottom:1px solid #c0c0c0;
+}
+.vintagecontenttable .borders
+{
+	border-bottom:1px solid #c0c0c0;
+}
+#vintageGrid
+{
+	width:100%;
+	background-color:#dad8d9;
+	border-left:3px solid #900;
+	border-right:3px solid #900;
+	margin:0;
+	padding:0;
+}
+#vintageGrid td
+{
+	padding:10px 5px;
+	margin:auto;
+	font:12px Arial, Helvetica, sans-serif;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	text-align:center;
+}
+#vintageGrid td.vintgridaxis
+{
+	background-color:#fff;
+	border-right-color:#dad8d9;
+	border-bottom-color:#dad8d9;
+}
+#vintageGrid td.nyr
+{
+	background-color:#f5f3f4;
+}
+#vintageGrid td.drinkhold
+{
+	background-color:#f2e77e;
+}
+#vintageGrid td.drink
+{
+	background-color:#49db2e;
+}
+#vintageGrid td.hold
+{
+	background-color:#f94342;
+}
+#vintageGrid td.pastpeak
+{
+	background-color:#b8b8ba;
+}
+#vintageGrid td.region
+{
+	background:url(../searchpng/vintagegrid-td-regionbg.gif) right top no-repeat;
+	padding:0 10px;
+	color:#dad8d9;
+	text-align:left;
+}
+#vintageGrid td.region1
+{
+	padding-left:15px;
+	text-align:left;
+}
+#vintageGrid td.region2
+{
+	padding-left:30px;
+	text-align:left;
+}
+#vintageGrid td.regiontopline
+{
+	border:none;
+	background-color:#737172;
+	height:5px;
+	padding:0;
+	margin:0;
+}
+#vintageGrid td.regiontopline p
+{
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0 10px;
+	text-align:center;
+}
+#vintageGrid td.regiontopline img
+{
+	vertical-align:middle;
+}
+#vintageGrid td.regiontopline span
+{
+	background-color:#2a2a2a;
+	color:#fff;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding:8px 4px;
+}
+#vintageGrid td.regiontopline a:link, #vintageGrid td.regiontopline a:visited
+{
+	color:#dad8d9;
+}
+#vintageGrid td.region1 a:link, #vintageGrid td.region1 a:visited, #vintageGrid td.region2 a:link, #vintageGrid td.region2 a:visited
+{
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#737172;
+}
+#vintageGrid td.region a:link, #vintageGrid td.region a:visited
+{
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color:#dad8d9;
+}		
+#vintageGrid td.footer
+{
+	border:none;
+	padding:20px;
+}
+#vintageGrid td.footer p
+{
+	font:14px Arial, Helvetica, sans-serif;
+}
+/* +++ Start: site tour-box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#siteTour
+{
+	border:2px #b9b39d solid;
+	background-color:#fdecc1;
+}
+/* +++ Start: Feature picture frames and menu boxes +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.navMenuBox
+{
+	clear:both;
+	width:275px;
+	float:right;
+	padding:0;
+	margin:0;
+	border-left:10px solid white;
+	border-bottom:3px solid White;
+	background-color:#fff;
+}
+.navMenuBox a
+{
+	border-bottom:none;
+}
+.navMenuBox img
+{
+	margin:0;
+	margin-bottom:3px;
+}
+.navMenuBox table
+{
+	background:url(/images/navMenuBoxOpen.gif) 0 0 no-repeat;
+}
+.navMenuBox table img
+{
+	margin-bottom:0;
+}
+.navMenuBox table.imgcapbox
+{
+	border:none;
+	margin-bottom:3px;
+}
+.navMenuBox table.imgcapbox caption
+{
+	width:auto;
+	margin:auto;
+	padding:3px;
+	padding-bottom:5px;
+	font:italic 11px Arial, Helvetica, sans-serif;
+}
+.navMenuBox td
+{
+	font:12px Arial, Helvetica, sans-serif;
+	padding:7px 0 7px 15px;
+}
+.navMenuBox tr
+{
+	background-color:#e3e3e3;
+}
+.navMenuBox tr:hover
+{
+	background-color:#eee;
+}
+.navMenuBox caption
+{
+	font:bold 16px Arial, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#ccc;
+	padding:5px 3px 5px 15px;
+	color:#900;
+}
+.thunbnailImage
+{
+	float:left;
+	margin:7px 7px 7px 0;
+}
+.imgcapleft
+{
+	float:left;
+	margin-right:7px;
+	margin-bottom:7px;
+}
+.imgcapright
+{
+	float:right;
+	margin-left:7px;
+	margin-right:7px;
+}
+.imgcapleft, .imgcapright
+{
+	margin-top:0;
+}
+.imgcapbox
+{
+	float:none;
+	margin:auto;
+	border:none;
+}
+.imgcapbox td
+{
+	background-color:#fff;
+	padding:0;
+}
+.imgcapleft caption, .imgcapright caption, .imgcapbox caption
+{
+	text-align:left;
+	width:200px;
+	background-color:#fff;
+	color:#000;
+	caption-side:bottom;
+}
+.imgcapbox caption
+{
+	width:auto;
+	margin:auto;
+}
+.imgcapleft caption
+{
+	margin-right:7px;
+}
+.imgcapright caption
+{
+	margin-left:7px;
+}
+caption span.photocredit
+{
+	display:block;
+	margin:0;
+	padding:0;
+	font-style:normal;
+	text-align:right;
+}
+.addPadding
+{
+	padding:7px;
+}
+.idbrorderLinks
+{
+	border:2px solid #00529F;
+	background-color:#eff0f5;
+}
+.idbrorderLinks td
+{
+	padding:7px;
+}
+.textAdsBox
+{
+	background-color:#ffc;
+	text-align:center;
+}
+.auctionRow
+{
+	background-color:#e5e5e5;
+}
+/* *** Start: FOR OLD STYLE-Feature picture frame and menu boxes	*** */
+.rightsidebox
+{
+	clear:both;
+	width:200px;
+	float:right;
+	padding:0;
+	margin: 0;
+	margin-left:7px;
+	border-bottom:5px solid White;
+}
+.leftsidebox
+{
+	width:200px;
+	float:left;
+	padding:0;
+	margin: 0;
+	margin-right:7px;
+	border-bottom:5px solid White;
+}
+.rightsidebox #imagebox, .leftsidebox #imagebox
+{
+	width:200px;
+	padding:0;
+	margin-bottom:5px;
+	background-color:#fff;
+}
+.rightsidebox #seealsobox
+{
+	font:bold 16px Arial, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#ccc;
+	padding:5px 3px 5px 15px;
+	color:#900;
+}
+.rightsidebox #seealsotdimg
+{
+	background-color:#b5c6d8;
+	padding:1px 0 1px 0;
+	vertical-align:top;
+}
+.rightsidebox #seealsotdimg div
+{
+	width:24px;
+	height:24px;
+	background:url(/images/arrow_inside.gif) no-repeat;
+}
+.rightsidebox #seealsotditem
+{
+	padding: 2px;
+	font: 12px Arial, Helvetica, sans-serif;
+	vertical-align:top;
+}
+.rightsidebox p, .leftsidebox p, .rightsidebox #caption, .leftsidebox #caption
+{
+	width:200px;
+	padding:3px;
+	font:italic 13px "Times New Roman", Times, serif;
+	margin:0;
+}
+#trhighlight, #trunhighlight:hover
+{
+	background-color: #d9e5f1;
+}
+#trunhighlight
+{
+	background-color: #eff2f7;
+}
+.blueboxtext
+{
+	width:275px;
+}
+.blueboxtext td img
+{
+	display:inline;
+}
+.navMenuBox .blueboxtext td
+{
+	padding:5px 0;
+	background-color:#e3e3e3;
+}
+.navMenuBox td.blueboxheader
+{
+	font:bold 16px Arial, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#ccc;
+	padding:5px 3px 5px 15px;
+	color:#900;
+}
+/* *** End: OLD STYLE-Feature picture frame and menu boxes 	*** */
+
+/* * Advertising box * */
+/* ------------------------------------------  ------------------------------------------ */
+#adsBox .moduleOpen
+{
+	background-image:url(/images/moduleTopAdsBg.gif);
+}
+#adsBox .moduleClose
+{
+	background-image:url(/images/moduleBtmAdsBg.gif);
+}
+#adsBox .module
+{
+	width:304px;
+}

@@ -1,0 +1,48 @@
+/* ============= CONNOISSEURS CORNER ============= */
+
+#connoisseurItems {
+  &:hover {
+    margin-top: 0;
+    margin-bottom: 1.56em;
+  }
+}
+
+.connoisseurs-item {
+  margin: 0 0 0.56em;
+  padding: 3em 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.connoisseurs-item:first-of-type {
+  padding-top: 0;
+}
+
+.connoisseurs-item:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.connoisseurs-list_title {
+  margin: 0.56em 0 1em;
+}
+
+.connoisseurs-image {
+  margin: 0 0 1.72em;
+  padding: 0;
+}
+
+.connoisseurs-score {
+  @extend .cigar-teaser_score;
+  @include bp-small {
+    @include font-size(48px);
+  }
+}
+
+.connoisseurs-label {
+  @extend .cigar-teaser_label;
+}
+
+.connoisseurs-author {
+  margin: 1em 0 0 0;
+}

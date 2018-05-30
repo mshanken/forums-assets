@@ -1,0 +1,62 @@
+/* ============= PAGINATION ============= */
+/* === modified default Bolt CMS Pagination styles: https://docs.bolt.cm/3.0/templates/content-paging === */
+
+.pagination-container {
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+.pagination-centered {
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+}
+
+.pagination ul {
+  float: left;
+  clear: both;
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  border: 1px solid $border-color;
+}
+
+.pagination ul li {
+  float: left;
+  list-style-type: none;
+  border-right: 1px solid rgba($brown-color, 0.24);
+
+  i.fa {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.pagination ul li a {
+  padding: 0.32em 0.56em;
+  display: block;
+  background-color: $white-color;
+  color: $black-color;
+
+  @include bp-small {
+    padding: 0.64em 1.08em;
+  }
+
+  &:hover {
+    color: $white-color;
+    background-color: $red-color;
+  }
+}
+
+.pagination ul li:last-child {
+  border-right: none;
+}
+
+.pagination ul li.active a {
+  color: $white-color;
+  background-color: $red-color;
+}
+
+.pagination ul li a {
+  text-decoration: none;
+}

@@ -1,0 +1,64 @@
+
+
+#connoisseur {
+  width:1050px;
+  margin: 30px 0 0 0;
+  position:absolute;
+}
+
+
+#connoisseur input {
+  width:300px;
+}
+
+
+#connoisseur textarea {
+  width:300px;
+  height:200px; 
+}
+
+#connoisseur select {
+  width:300px;
+}
+
+
+#connoisseur .connoisseur_menu {
+  width:250px; 
+  float:left; 
+  padding:20px;
+}
+
+
+#connoisseur form {
+  width:400px; 
+  padding:20px;
+  float:right;
+}
+
+
+
+#connoisseur .delete_cigar {
+  color:#f00;
+}
+
+
+
+#connoisseur #choose_a_connoisseurs_corner {
+  position:absolute;
+  width:1000px;
+  margin:0px;
+  margin-left:auto;
+  margin-right:auto; 
+  background-color:#eee;
+  padding:40px;
+  z-index:10;
+  display:none;
+}
+
+
+#connoisseur #choose_a_connoisseurs_corner input {
+  width: 20px;
+}
+
+
+

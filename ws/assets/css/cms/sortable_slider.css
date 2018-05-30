@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#sortable li {
+	padding-left: 1.5em;
+	padding-bottom: 1.5em;
+	background-color: #DAEDA3;
+	border: 1px solid #000000;
+	cursor: move;
+	margin: 2px 0;
+	padding: 2px;
+	vertical-align: text-top;
+}
+
+#sortable li span {
+	position: absolute;
+	margin-left: -1.3em;
+}

@@ -1,0 +1,16 @@
+/* ============= HP CIGAR 101 ============= */
+
+#hp-cigar101.content-card_header {
+  margin-bottom: 12px;
+}
+
+.hp-cigar101_title {
+  @extend .content-card_title;
+}
+
+.hp-cigar101_image {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 1em;
+  position: relative;
+}

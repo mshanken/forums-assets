@@ -1,0 +1,113 @@
+/* ==== ADVERTISEMENTS ==== */
+
+.ad-strip {
+  display: block;
+  margin: 0 auto 2em;
+  padding: 0;
+  text-align: center;
+}
+
+.ad-strip--top {
+  .ad-strip {
+    margin-bottom: 1em;
+  }
+}
+
+.ad-strip--bordered {
+  margin: 0 auto 2em;
+  padding: 0;
+  border: none;
+  text-align: center;
+
+  @include bp-small {
+    margin: 0 auto 2em;
+    padding: 2em 0;
+
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+  }
+  .ad-strip {
+    margin: 0 auto;
+  }
+}
+
+// ADVERTISEMENT BACKGROUND IMAGES....
+
+[data-flex="4x1"] {
+  // background-image: url($ad-4x1-background);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 1320px;
+  // margin: 0 auto;
+  // padding-bottom: 25%;
+}
+
+[data-flex="6x1"] {
+  // background-image: url($ad-6x1-background);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 450px;
+  // margin: 0 auto;
+  // padding-bottom: 16.67%;
+}
+
+[data-flex="8x1"] {
+  // background-image: url($ad-8x1-background);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 1200px;
+  // margin: 0 auto;
+  // padding-bottom: 12.5%;
+}
+
+[data-flex="1x1"] {
+  // background-image: url($ad-1x1-background);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 450px;
+  // margin: 0 auto;
+  // padding-bottom: 100%;
+}
+
+[data-flex="1x2"] {
+  // background-image: url($ad-1x2-background);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 450px;
+  // margin: 0 auto;
+  // padding-bottom: 200%;
+}
+
+.advertisement img {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+/* ==== MAGAZINE PROMOS ==== */
+
+.mag-promo {
+  background: rgba($parchment-color, 0.75);
+
+  .content-card_body {
+    background: rgba($parchment-color, 0.75);
+    figure {
+      background: transparent;
+    }
+  }
+
+  .content-card_title {
+    @include font-size(28px);
+  }
+
+  // use when content-cards have social buttons
+  // @include bp-large {
+  //     margin-left: 39.3px;
+  //     width: calc(100% - 39.3px);
+  // }
+}
