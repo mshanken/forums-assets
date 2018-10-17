@@ -1,0 +1,84 @@
+/* ================ ON NEWSSTANDS ================ */
+
+.on-newsstands {
+  margin: 0 auto 1em;
+  border: none;
+  padding: 1em;
+  text-align: center;
+  @include bp-small {
+    border: 4px solid $ciginsider-red;
+    padding: 2em;
+  }
+  @include bp-medium {
+    margin: 1em auto;
+    padding: 1em 1em 2em;
+  }
+  @include bp-large {
+    padding: 1.32em 1.32em 2.8em;
+  }
+
+  h1 {
+    @include font-size(24px);
+    border-bottom: 1px solid rgba($ciginsider-red, 0.2);
+    margin-bottom: 0.64em;
+    padding: 0.32em 0;
+    @include bp-small {
+      margin-bottom: 0.48em;
+    }
+    @include bp-medium {
+      @include font-size(36px);
+      margin-bottom: 0.32em;
+      padding-bottom: 0.24em;
+    }
+  }
+
+  span {
+    display: none;
+
+    @include bp-small {
+      display: block;
+      padding: 0;
+      margin: 0;
+      @include font-size(17px);
+    }
+    @include bp-medium {
+      @include font-size(18px);
+    }
+  }
+
+  img {
+    margin: 0.56em auto 1em;
+    padding: 0;
+    display: block;
+    max-width: 225px;
+    height: auto;
+    @include bp-small {
+      max-width: 270px;
+    }
+    @include bp-medium {
+      max-width: 82%;
+      margin-bottom: 1.56em;
+    }
+    @include bp-large {
+      margin: 1.32em auto 1.56em;
+      max-width: 285px;
+    }
+  }
+
+  .btn-default {
+    display: block;
+    background-color: $ciginsider-red;
+    border-color: $ciginsider-red;
+    color: $white-color;
+    text-transform: uppercase;
+    padding: 0.6em 2.8em;
+    @include font-size(16px);
+    @include bp-small {
+      display: inline-block;
+    }
+
+    &:hover {
+      background-color: darken($ciginsider-red, 8%);
+    }
+  }
+}

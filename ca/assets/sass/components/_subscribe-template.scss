@@ -1,0 +1,60 @@
+/* ================ SUBSCRIBE TEMPLATE ================ */
+
+.subscription-card {
+  height: inherit;
+
+  &--img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: none;
+      box-shadow: none;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  hr {
+    opacity: 0.4;
+  }
+
+  &--title {
+    text-align: center;
+    @include font-size(24px);
+    color: $red-color;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  &--copy {
+    text-align: center;
+    padding: 0;
+    margin: 0 0 2em;
+    @include bp-medium {
+      padding: 0 1.32em;
+    }
+  }
+
+  &--btn {
+    @extend .content-card_btn;
+    @include font-size(18px);
+    padding: 13px 17px;
+    margin: 0 auto;
+    background-color: $blue-color;
+    background-color: #4270a7;
+    color: #fff;
+    max-width: 300px;
+    border-radius: 5.76px;
+  }
+}
+
+.subscription-card--btn:active,
+.subscription-card--btn:visited,
+.subscription-card--btn:focus {
+  color: $white-color;
+}

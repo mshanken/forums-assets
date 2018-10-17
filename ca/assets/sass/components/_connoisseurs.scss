@@ -1,0 +1,90 @@
+/* ================ CONNOISSEURS CORNER ================ */
+.conn-corner {
+  &-list_title {
+    margin: 0.56em 0 1em;
+  }
+
+  &-featured,
+  &-item {
+    @extend %clearfix;
+  }
+
+  &-featured {
+    margin: 1em auto 0;
+    padding: 0;
+    max-width: 620px;
+  }
+
+  &-item {
+    @include bp-large {
+      border-right: 1px solid rgba($border-color, 0.56);
+    }
+    p {
+      @include font-size(14px);
+      @include bp-large {
+        padding-right: 0.88em;
+      }
+    }
+  }
+
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.32em;
+
+    @include bp-medium {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include bp-large {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  &-score {
+    float: left;
+    margin: 0 0.16em 0 0;
+    @include font-size(51.2px);
+    font-weight: bold;
+    color: $red-color;
+    line-height: 0.82;
+  }
+
+  &-info {
+    span {
+      font-weight: bold;
+      @include font-size(18px);
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+  }
+
+  &-image {
+    margin: 0.56em 0 0.8em;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include bp-large {
+      padding-right: 0.56em;
+    }
+  }
+}
+
+.conn-corner-item:nth-child(3n) {
+  border-right: none;
+}
+
+
+ 
+  .cigar-teaser_image.featured-connoisseurs {
+    position: relative;
+    max-height: 118px;
+    overflow: hidden;
+    padding: 14% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

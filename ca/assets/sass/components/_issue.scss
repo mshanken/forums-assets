@@ -1,0 +1,88 @@
+/* ================ ISSUE ENTRY STYLES ================ */
+
+.magazine-info_header {
+  @extend .content-card_header;
+}
+
+.magazine-figure {
+  margin-bottom: 1em;
+  @include bp-medium {
+    margin-bottom: 2em;
+  }
+}
+
+.magazine-info_btn {
+  @extend .content-card_btn;
+  margin-bottom: 2em;
+  @include bp-small {
+    margin-right: 1em;
+  }
+}
+
+.magazine-info_btn:last-of-type {
+  margin-right: 0;
+}
+
+.back-issue {
+  .content-card_body p {
+    margin-bottom: 2em;
+  }
+}
+
+.explore-issue {
+  display: none;
+  @include bp-medium {
+    display: block;
+    @include font-size(12px);
+    text-transform: uppercase;
+    letter-spacing: $alt-letter-spacing;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1em 0 0 0;
+    padding: 0.4em 1.32em;
+    background-color: $red-color;
+    color: $white-color;
+  }
+}
+
+.issue-item_img-container {
+  margin: 0 auto 1em;
+  padding: 0;
+  background-color: rgba($gray-color, 0.56);
+  max-width: 500px;
+}
+
+.issue-item_content {
+  @extend %clearfix;
+  margin-top: 2em;
+  @include bp-small {
+    margin-top: 0;
+  }
+}
+
+.issue-item_list {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.issue-item_list li {
+  margin: 1.24em 0;
+  padding: 0 0 0.72em;
+  border-bottom: 1px solid rgba($border-color, 0.12);
+}
+
+.issue-item_list li a {
+  display: block;
+
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

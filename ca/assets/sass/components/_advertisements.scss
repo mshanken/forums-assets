@@ -1,0 +1,57 @@
+/* ================ ADVERTISEMENTS ================ */
+
+.ad-strip {
+  display: block;
+  margin: 0 auto 2em;
+  padding: 0;
+  text-align: center;
+}
+
+.ad-strip--bordered {
+  margin: 0 auto 2em;
+  padding: 0;
+  border: none;
+  text-align: center;
+
+  @include bp-small {
+    margin: 0 auto 2em;
+    padding: 2em 0;
+
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+  }
+  .ad-strip {
+    margin: 0 auto;
+  }
+}
+
+.advertisement img {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+/* ================ MAGAZINE PROMOS ================ */
+
+.mag-promo {
+  background: rgba($parchment-color, 0.75);
+
+  .content-card_body {
+    background: rgba($parchment-color, 0.75);
+    figure {
+      background: transparent;
+    }
+  }
+
+  .content-card_title {
+    @include font-size(28px);
+  }
+}
+
+
+
+/* ================ fixing space from Invisibly Pixel plugin ================ */
+
+#ads-text-iframe {
+  display: none;
+}

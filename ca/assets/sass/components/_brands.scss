@@ -1,0 +1,230 @@
+/* ================ BRANDS ================ */
+
+.brand-default-card {
+  .cigar-teaser {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cigar-teaser_score {
+    @include font-size(32px);
+
+    @include bp-small {
+      @include font-size(76.8px);
+    }
+
+    @include bp-medium {
+      @include font-size(32px);
+    }
+  }
+
+  .cigar-teaser_info {
+    padding: 10% 0;
+  }
+}
+
+a.more-btn {
+  display: block;
+  margin: 2em auto;
+  padding: 0.32em 1em;
+  color: $black-color;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
+  letter-spacing: $alt-letter-spacing;
+  @include font-size(15px);
+  clear: both;
+  box-shadow: $box-shadow_btn;
+
+  max-width: 265px;
+}
+
+a.more-btn:active,
+a.more-btn:focus,
+a.more-btn:visited {
+  color: $black-color;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.more-btn:hover {
+  color: $white-color;
+  text-decoration: none;
+  background-color: $red-color;
+  border-color: $red-color;
+}
+
+.brand-title {
+  margin: 1em 0;
+  @include bp-small {
+    margin: 0 0 1em;
+  }
+}
+
+.brand-owner {
+  text-transform: uppercase;
+  margin: 0.24em 0 1em;
+  padding: 0;
+
+  a {
+    display: inline-block;
+    text-transform: capitalize;
+  }
+}
+
+.all-brands-btn {
+  margin: 1.32em 0 2em;
+}
+
+.brand-figure {
+  background-color: $white-color;
+  margin: 1em 0 0 0;
+  padding: 0;
+
+  @include bp-small {
+    margin: 0;
+  }
+}
+
+.brand-info {
+  margin: 1em 0;
+
+  @include bp-small {
+    margin: 0 0 3em;
+  }
+}
+
+.brand-info p {
+  margin-bottom: 2em;
+}
+
+.brand-founding {
+  margin: 1.32em 0 0;
+  padding: 0;
+  line-height: 1.6;
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+/* ================ BRAND TROPHIES ================ */
+
+#trophy-case {
+  margin: 1em auto 0;
+  padding: 0;
+  text-align: center;
+}
+
+.trophy-case_awards {
+  margin: 0;
+  padding: 0;
+}
+
+.trophy-case_awards-item {
+  padding: 0.16em 1.32em 1em 0.16em;
+  margin: 0;
+}
+
+.trophy-case_awards-item_body {
+  background-color: $white-color;
+  padding: 0;
+  margin: 0;
+  box-shadow: $box-shadow;
+  position: relative;
+  height: 225px;
+
+  a {
+    color: $black-color;
+    display: block;
+
+    &:hover {
+      color: $red-color;
+    }
+  }
+}
+
+.trophy-case_trophy {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 100px;
+}
+
+.trophy-case_trophy svg {
+  fill: $brown-color;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.trophy-case_info {
+  text-align: center;
+  padding: 1em 0.56em;
+  @include font-size(15px);
+}
+
+.trophy-case_name {
+  padding: 0 1em;
+}
+
+.trophy-case_awards .trophy-case_trophy.cigar-of-the-year {
+  svg {
+    fill: #e7be42;
+  }
+}
+
+.trophy-case_awards .trophy-case_trophy.silver-trophy {
+  svg {
+    fill: $gray-color;
+  }
+}
+
+.trophy-case_awards .trophy-case_trophy.bronze-trophy {
+  svg {
+    fill: #a77047;
+  }
+}
+
+/* ================ AWESOMPLETE OVERWRITES / BRANDS & COMPANIES STYLES ================ */
+
+.awesomplete {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.awesomplete > ul > li:hover {
+  background-color: rgba($gray-color, 0.12);
+  color: $black-color;
+}
+
+.awesomplete li:hover mark {
+  background-color: transparent;
+}
+
+.awesomplete mark {
+  background-color: transparent;
+  border-bottom: 1px solid $red-color;
+  color: $red-color;
+  padding: 0.08em;
+}
+
+#brandsInput,
+#companiesInput {
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 0 1em;
+}
+
+.brands-search a.btn,
+.company-search a.btn {
+  border-radius: 0;
+  color: $black-color;
+  padding-left: 1.32em;
+  padding-right: 1.32em;
+}

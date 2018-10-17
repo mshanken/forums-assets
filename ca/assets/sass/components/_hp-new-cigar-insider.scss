@@ -1,0 +1,78 @@
+/* ================ CIGAR INSIDER PROMO ================ */
+
+.cigar-insider-container {
+  margin: 0 0 2em;
+  padding: 0.8em 1em;
+  border: 8px solid $ciginsider-brown;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px 5px;
+  background-color: $ciginsider-blue;
+  color: $white-color;
+  min-height: inherit;
+  @include bp-small {
+    background-position: -120px 5px;
+    min-height: 280px;
+    padding: 2em;
+  }
+  @include bp-medium {
+    padding: 1.56em;
+    background-position: left center;
+    min-height: inherit;
+  }
+
+  &_text {
+    margin: 0;
+    padding: 0 0 0 24%;
+    text-align: center;
+    @include bp-small {
+      padding: 0 0 0 38%;
+    }
+
+    h1 {
+      @include font-size(28px);
+      margin-bottom: 0.16em;
+      @include bp-small {
+        @include font-size(32px);
+      }
+      @include bp-medium {
+        @include font-size(42px);
+      }
+    }
+
+    p {
+      color: $ciginsider-beige;
+      font-style: italic;
+      @include font-size(16px);
+      margin-bottom: 1.24em;
+
+      @include bp-small {
+        @include font-size(20px);
+        margin-bottom: 2em;
+      }
+    }
+  }
+}
+
+.cigar-insider-container_text {
+  .btn-default {
+    border-color: rgba($ciginsider-red, 0.8);
+    background-color: $ciginsider-red;
+    color: $white-color;
+    border-radius: 3px;
+    padding: 0.56em 1em;
+    margin: 0 0.64em 0.56em 0;
+    font-weight: normal;
+    box-shadow: 0px 2px 4px rgba(8, 8, 8, 0.4);
+    text-transform: uppercase;
+    @include font-size(14px);
+    @include bp-medium {
+      padding: 0.56em 3em;
+      @include font-size(16px);
+    }
+    &:hover {
+      border-color: darken($ciginsider-red, 8%);
+      background-color: darken($ciginsider-red, 8%);
+    }
+  }
+}

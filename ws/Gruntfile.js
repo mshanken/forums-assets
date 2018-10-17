@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 					sourceMap: true
 				},
 				files: {
-					"css/wso.forum.min.css": "assets/css/wso.less"
+					"css/wso.forum.min.css": "assets/less/wso.less"
 				}
 			}
 		}

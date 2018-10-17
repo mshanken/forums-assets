@@ -1,0 +1,100 @@
+/* ================ CATEGORY ARTICLE ITEMS ================ */
+
+.category-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+
+  margin: 0;
+  padding: 0;
+  @include bp-small {
+    margin-top: 1em;
+  }
+
+  @include bp-xlarge {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  &_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+
+    box-shadow: $new-box-shadow;
+    margin: 0 0 2.56em;
+    padding: 0;
+    width: 100%;
+    @include bp-small {
+      width: 345px;
+    }
+    @include bp-medium {
+      width: 420px;
+    }
+    @include bp-large {
+      width: 380px;
+    }
+    @include bp-xlarge {
+      width: 400px;
+    }
+  }
+
+  &_item-heading {
+    padding: 1em;
+    margin: 0;
+    border-top: 16px solid $ciginsider-red;
+    h4 {
+      @include font-size(24px);
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &_item-title {
+    padding: 1em;
+    margin: 0;
+    h3 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      @include font-size(22px);
+      line-height: 1.4;
+    }
+  }
+}
+
+.category-container_item > a {
+  display: block;
+  color: $black-color;
+  &:hover {
+    color: $ciginsider-red;
+  }
+}
+
+.category-container_item-heading h4 > a {
+  display: inline;
+  color: $black-color;
+  &:hover {
+    color: $ciginsider-red;
+  }
+}

@@ -1,0 +1,125 @@
+/* ================ BLOGS NAVIGATION ================ */
+
+.blogs-container {
+  margin: 0 auto 1em;
+  padding: 0;
+  box-shadow: none;
+  @include bp-small {
+    padding: 2em;
+    box-shadow: 0 0px 20px rgba(131, 131, 131, 0.24);
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  @include bp-medium {
+    padding: 2em;
+  }
+  @include bp-xlarge {
+    padding: 3.5em 2em;
+  }
+
+  h2 {
+    @include font-size(20px);
+    margin-bottom: 0.8em;
+    @include bp-small {
+      @include font-size(24px);
+    }
+
+    a {
+      color: $black-color;
+    }
+  }
+}
+
+.blogs-container a {
+  &:hover {
+    color: $ciginsider-red;
+  }
+}
+
+.blogs-container_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  @include bp-small {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+  }
+
+  &-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    width: 105px;
+    @include bp-small {
+      width: 100px;
+    }
+    @include bp-medium {
+      width: 130px;
+    }
+    @include bp-large {
+      width: 180px;
+    }
+
+    a {
+      display: block;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+.blogs-container_wrapper-item {
+  padding: 0;
+  margin: 0 0 1em;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0.56em;
+    border-radius: 8px;
+  }
+
+  h3 {
+    @include font-size(14px);
+    text-align: center;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0 auto;
+    width: 72%;
+    @include bp-small {
+      @include font-size(17px);
+    }
+    @include bp-medium {
+      @include font-size(16px);
+      width: 100%;
+    }
+    @include bp-large {
+      @include font-size(19px);
+    }
+  }
+}

@@ -1,0 +1,78 @@
+/* ================ CIGAR 101 ================ */
+
+.cigar101-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 1em;
+  margin: 0 0 2em;
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  color: $white-color;
+  @include bp-small {
+    min-height: 268px;
+    padding: 2em;
+  }
+  @include bp-medium {
+    min-height: 225px;
+  }
+  @include bp-large {
+    min-height: 280px;
+  }
+
+  &::after {
+    content: "";
+    // background image via channel-homepage-v2 template
+    background-color: rgba(0, 0, 0, 0.72);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  h1 {
+    @include font-size(40px);
+    padding: 0 1em 0.16em;
+    margin: 0 0 0.08em;
+    width: initial;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    @include bp-small {
+      @include font-size(46px);
+    }
+  }
+
+  a {
+    display: block;
+    padding: 0.72em 1.32em;
+    margin: 0;
+    color: $white-color;
+    @include font-size(18px);
+    text-align: center;
+    @include bp-small {
+      @include font-size(20px);
+    }
+    &:hover {
+      color: $ciginsider-beige;
+    }
+  }
+}

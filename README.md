@@ -10,7 +10,8 @@ For CA (sass) you need to have sass or node-sass installed. Once you are in the
 ```
 folder just run 
 ```
-	sass --watch --style compressed assets/css/app.scss:css/cao.forum.min.css
+	sass --watch --style compressed assets/sass/app.scss:css/cao.forum.min.css
+	sass --style compressed assets/sass/app.scss:css/cao.jwplayer.min.css
 ```
 to get a new css file them just dumped into the S3 bucket (check path to find out where to).
 

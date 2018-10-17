@@ -1,0 +1,110 @@
+/* ==== HOMEPAGETOPTAB ==== */
+
+.homepageTopTab .tab-feature_body {
+  padding: 1.4em;
+  height: inherit;
+
+  @include bp-medium {
+    padding: 2em 1em;
+  }
+  @include bp-large {
+    padding: 2em;
+  }
+
+  .tab-feature_blurb {
+    @include bp-large {
+      @include font-size(17px);
+    }
+  }
+}
+
+.homepageTopTab .tab-feature_body-image {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+  img {
+    border: 1px solid rgba($border-color, 0.64);
+  }
+
+  @include bp-small {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.alternative-mag_container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  overflow: hidden;
+  padding: 2em 1em;
+  color: white;
+
+  @include bp-small {
+    padding: 3em 2em;
+  }
+
+  @include bp-medium {
+    padding: 2em 1em;
+  }
+
+  @include bp-large {
+    padding: 2em;
+  }
+
+  &-copy {
+    max-width: 200px;
+
+    .content-card_header {
+      @include font-size(19px);
+      line-height: 1.24;
+      color: $white-color;
+      font-weight: normal;
+      a {
+        color: $white-color;
+        &:hover {
+          color: $white-color;
+        }
+      }
+    }
+
+    .content-card_btn {
+      background-color: $white-color;
+      &:hover {
+        background-color: $red-color;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+#homepageTopTab1 .tab-feature_body,
+#homepageTopTab1b .tab-feature_body {
+  padding: 0;
+}
+
+#homepageTopTab2 .tab-feature_body,
+#homepageTopTab3 .tab-feature_body,
+#homepageTopTab4 .tab-feature_body,
+#homepageTopTab2b .tab-feature_body,
+#homepageTopTab3b .tab-feature_body,
+#homepageTopTab4b .tab-feature_body {
+  padding: 1.4em;
+  height: inherit;
+
+  @include bp-medium {
+    padding: 2em 1em;
+  }
+  @include bp-large {
+    padding: 2em;
+  }
+
+  .tab-feature_blurb {
+    @include bp-large {
+      @include font-size(17px);
+    }
+  }
+}

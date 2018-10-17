@@ -1,0 +1,96 @@
+/* ================ APPS SECTION ================ */
+
+.apps-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 1.5em 0;
+  margin: 0;
+  @include bp-small {
+    padding: 2.5em 0 1.5em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  &_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0 0 2em;
+  }
+
+  &_item-img {
+    margin: 0 1em 0 0;
+    padding: 0;
+
+    img {
+      max-width: 78px;
+      height: auto;
+      @include bp-large {
+        max-width: 96px;
+      }
+    }
+  }
+
+  &_item-info {
+    margin: 0;
+    padding: 0;
+
+    h3 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      @include font-size(20px);
+      line-height: 1.2;
+      margin: 0 0 0.8em 0;
+      padding: 0;
+    }
+    a {
+      display: inline-block;
+      margin: 0 0.24em 0 0;
+      padding: 0;
+      @include bp-medium {
+        margin: 0 1em 0 0;
+      }
+    }
+  }
+}
+
+.app-store,
+.google-play {
+  img {
+    width: 98px;
+    height: auto;
+  }
+}
+
+.google-play {
+  margin-right: 0;
+}

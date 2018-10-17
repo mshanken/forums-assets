@@ -1,0 +1,179 @@
+/* ================ FOOTER ================ */
+
+footer {
+  padding: 3.56em 0;
+  margin: 0;
+  background-color: $ciginsider-red;
+  color: $white-color;
+  @include font-size(14.5px);
+  letter-spacing: 0.1em;
+
+  @include bp-small {
+    padding: 1.56em 0;
+  }
+
+  a {
+    color: #F2F2F2;
+    &:active,
+    &:focus,
+    &:visited {
+      color: #F2F2F2;
+      text-decoration: none;
+    }
+    &:hover {
+      color: $gold-color;
+      text-decoration: none;
+    }
+  }
+}
+
+#new-cigar-insider {
+  footer {
+    background-color: $ciginsider-brown;
+  }
+}
+
+.footer_social {
+  display: none;
+  @include bp-small {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0;
+    margin: 0 0 2em 0;
+    border-bottom: 1px solid #979797;
+    line-height: 1.2;
+  }
+
+  &-label {
+    margin: 0 1em 0 0;
+    padding: 0;
+    font-weight: bold;
+    @include font-size(22px);
+    @include bp-small {
+      @include font-size(20px);
+    }
+  }
+  &-icon {
+    margin: 0 0.56em 0 0;
+    opacity: 0.96;
+    @include font-size(30px);
+  }
+}
+
+.footer_social-icon {
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.footer_social--alt-wrapper {
+  padding: 0;
+  margin: 0 auto;
+  @include bp-small {
+    display: none;
+  }
+
+  .footer_social-label {
+    margin-bottom: 0.56em;
+  }
+}
+
+.footer_social--alt {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.footer_heading {
+  font-family: "Roboto", sans-serif;
+  @include font-size(22px);
+  line-height: 1.25;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.56em;
+  padding: 0;
+  @include bp-small {
+    margin-bottom: 1em;
+    @include font-size(20px);
+    line-height: 1.1;
+  }
+}
+
+.footer_link-list {
+  margin: 0 0 2.56em;
+  padding: 0;
+  @include bp-small {
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin: 0 0 0.56em;
+    padding: 0;
+  }
+}
+
+.footer_copyright {
+  margin: 0.56em 0;
+  padding: 0;
+  @include bp-small {
+    margin: 2em 0;
+  }
+}
+
+.forums-spacer {
+  margin: 0;
+  padding: 0;
+  @include bp-medium {
+    padding-left: 2em;
+  }
+}
+
+.forums-icon {
+  margin: 0 0 0 1em;
+  padding: 0;
+  width: 48px;
+  @include bp-small {
+    width: 85px;
+    margin: 0;
+  }
+}
+
+.forums-icon a {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.forums-icon svg,
+.forums-icon img {
+  width: 100%;
+  height: auto;
+  fill: #F2F2F2;
+
+  &:hover {
+    fill: $gold-color;
+  }
+}
+
+.corner-to-top {
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  border: 2px solid $black-color;
+  color: $black-color;
+  background-color: $white-color;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+  @include font-size(25px);
+  padding: 0.32em;
+  display: none;
+  line-height: 1;
+  cursor: pointer;
+  &:hover {
+    color: $red-color;
+  }
+}

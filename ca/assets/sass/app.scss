@@ -1,0 +1,117 @@
+@charset 'utf-8';
+
+/* ================ BASE ================ */
+
+/* http://getbootstrap.com/customize/ all included except glyphicons & pagination styles */
+// @import "base/bootstrap";
+@import "bootstrap/assets/stylesheets/bootstrap";
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/helpers";
+@import "base/elements";
+
+/* ================ 3rd PARTY PLUGINS ================ */
+
+/* for v4.7 icons: https://fontawesome.com/v4.7.0/ */
+@import "plugins/font-awesome";
+
+/* classes for CSS3 animations: https://daneden.github.io/animate.css/ */
+@import "plugins/animate";
+
+/* for slider functionality: http://kenwheeler.github.io/slick/ */
+@import "plugins/slick";
+@import "plugins/slick-theme";
+
+/* style companion for awesomplete: https://github.com/LeaVerou/awesomplete */
+@import "plugins/awesomplete";
+
+/* style companion for magnific lightbox plugin: https://github.com/dimsemenov/Magnific-Popup */
+@import "plugins/magnific";
+
+/* ================ COMPONENTS ================ */
+
+@import "components/layout";
+
+/* @import "components/tab-feature";
+@import "components/content-sections"; */
+@import "components/content-card";
+/* @import "components/section-headers"; */
+
+@import "components/advertisements";
+@import "components/topbanner";
+
+@import "components/header";
+@import "components/navigation";
+/* @import "components/notifications"; */
+@import "components/search";
+/* @import "components/article";
+@import "components/subscribe-template";
+@import "components/cigar-detail";
+@import "components/connoisseurs";
+@import "components/glossary";
+
+@import "components/ratings";
+@import "components/cigar-insider";
+@import "components/brands";
+@import "components/issue";
+
+@import "components/countdown-clock";
+
+// previous homepage styles - remove when new homepage is approved
+@import "components/hp-headlines";
+@import "components/homepageTopTab";
+@import "components/hp-cinema";
+@import "components/hp-subscribe";
+@import "components/hp-bigsmoke";
+@import "components/hp-cigar101";
+@import "components/hp-top25";
+@import "components/apps-promo";
+
+// new homepage styles
+@import "components/hp-new-headlines";
+@import "components/hp-new-newsstands";
+@import "components/hp-new-cotw";
+@import "components/hp-new-ratings-search";
+@import "components/hp-new-top25";
+@import "components/hp-new-cigar-insider";
+@import "components/hp-new-cigar101";
+@import "components/hp-new-big-smoke";
+@import "components/hp-new-video";
+@import "components/hp-new-issue";
+@import "components/hp-new-blog-nav";
+@import "components/hp-new-category-articles";
+@import "components/hp-new-apps";
+
+@import "components/cigarwatch-cta";
+
+@import "components/not-found";
+@import "components/release-block";
+
+@import "components/social-sharing";
+@import "components/related-gallery";
+@import "components/pagination";
+@import "components/social-icons";
+
+@import "components/user"; */
+@import "components/footer";
+
+@import "components/iab-flexszer";
+
+
+footer h2, footer .fa{ color: #fff; }
+#pageContentContainer header{ background-image: none; background-color: #fff; }
+header#siteHeader{ padding-bottom: 0; }
+.fixed{ top:33px !important; }
+.main-search input {
+    border: none !important;
+    background-color: #fff !important;
+    color: #080808 !important;
+    box-shadow: none !important;
+    padding: 0 1em !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    flex-grow: 1 !important;
+    width: 100% !important;
+    height: 30px !important;
+}

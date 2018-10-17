@@ -1,0 +1,373 @@
+/* ================ CIGAR TEASER ================ */
+
+.cigar-teaser_wrapper {
+  @extend %clearfix;
+}
+
+.cigar-teaser_wrapper-l {
+  border: none;
+  width: 100%;
+  display: block;
+  float: none;
+  padding: 0;
+  margin: 1em 0;
+
+  @include bp-medium {
+    border-right: 1px solid #ccc;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 0 5em 0 0;
+    margin-top: 1em;
+  }
+}
+
+.cigar-teaser_wrapper-r {
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  @include bp-medium {
+    width: 50%;
+    display: inline-block;
+    padding: 0 0 0 5em;
+    margin-top: 1em;
+  }
+}
+
+.cigar-teaser {
+  margin: 0 0 3em;
+  padding: 0;
+
+  a {
+    display: block;
+  }
+}
+
+#top25-landing {
+  .cigar-teaser {
+    margin: 0 0 2.4em;
+    padding: 0 0 2em;
+    border-bottom: 1px solid $border-color;
+  }
+  .cigar-teaser:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.cigar-teaser_info {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cigar-teaser_score {
+  @include font-size(32px);
+  font-weight: bold;
+  line-height: 1;
+  color: $red-color;
+
+  @include bp-medium {
+    @include font-size(48px);
+  }
+}
+
+.cigar-teaser_label {
+  color: $black-color;
+  text-transform: uppercase;
+  @include font-size(12px);
+  line-height: 1;
+
+  @include bp-medium {
+    @include font-size(15px);
+  }
+}
+
+/* ================ CIGAR DETAIL ================ */
+
+.cigar-detail {
+  .table {
+    margin: 0 0 2em;
+  }
+
+  .table > thead > tr > th,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > td {
+    padding: 14px;
+
+    @include bp-large {
+      padding: 20px;
+    }
+  }
+}
+
+.cigar-detail_title {
+  @extend .heading;
+  @include font-size(35.2px);
+  color: $red-color;
+  margin: 1em 0 0.56em;
+  padding: 0;
+
+  @include bp-small {
+    @include font-size(48px);
+    margin: 0.32em 0 0.5em;
+  }
+}
+
+.cigar-detail_header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid $border-color;
+  max-height: 260px;
+  margin: 0 0 2em;
+  padding: 0;
+  background-color: $white-color;
+  overflow: hidden;
+
+  @include bp-small {
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .cigar-detail_image {
+    width: 25%;
+  }
+
+  .cigar-detail_attributes {
+    width: 75%;
+    @include bp-small {
+      width: 100%;
+    }
+  }
+}
+
+.cigar-detail_info {
+  margin: 0;
+  padding: 0;
+
+  table {
+    box-shadow: $box-shadow;
+  }
+}
+
+.cigar-detail_top25 {
+  color: #b79c0a;
+  text-transform: uppercase;
+  @extend .heading;
+}
+
+.cigar-detail_attributes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @include bp-small {
+    flex-flow: row nowrap;
+  }
+}
+
+.cigar-detail_heading {
+  font-weight: bold;
+  color: $bronze-color;
+  margin: 0;
+  padding: 0;
+}
+
+.cigar-detail_additional-info {
+  margin: 0 0 0.4em 0;
+  padding: 0;
+}
+
+.cigar-detail_additional-note {
+  border-bottom: 1px solid $border-color;
+  margin: 1em 0;
+  padding: 0 0 1em;
+}
+
+.cigar-detail_additional-note:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.attributes-item {
+  width: calc(50% - 0.8em);
+  flex-grow: 1;
+  padding: 0 0 1em 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  @include bp-small {
+    width: calc(25% - 2em);
+    padding: 0;
+  }
+}
+
+.attributes-item_label {
+  text-transform: uppercase;
+  text-align: center;
+  @extend .small;
+  margin: 1em 0 0;
+  @include bp-large {
+    margin-top: 1.64em;
+    @include font-size(16px);
+  }
+}
+
+img.attributes-item_flag {
+  max-width: 100px;
+  height: auto;
+  @include bp-small {
+    max-width: 124px;
+  }
+}
+
+.ring-gauge {
+  position: relative;
+  width: 82px;
+  margin: 0 auto;
+  padding: 0;
+  @include bp-large {
+    width: 100px;
+  }
+
+  .attributes-item_gauge {
+    position: absolute;
+    color: $white-color;
+    bottom: 8%;
+    left: 18%;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+img.attributes-item_ring {
+  width: 100%;
+  height: auto;
+}
+
+img.attributes-item_strength {
+  max-width: 88px;
+  height: auto;
+}
+
+.attributes-item_score {
+  @include font-size(57px);
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+  font-weight: bold;
+  color: $red-color;
+
+  @include bp-small {
+    @include font-size(73px);
+  }
+}
+
+.cigar-detail_scale {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cigar-detail_scale img {
+  max-width: 60px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ================ CIGAR OF THE WEEK ================ */
+
+.cigaroftheweek--alt_banner {
+  background-color: $blue-color;
+  padding: 0.56em 1em;
+  text-transform: uppercase;
+  color: $white-color;
+  text-align: center;
+  @include font-size(25px);
+}
+
+.cigaroftheweek--alt_title {
+  text-align: center;
+  padding: 1em 1em 0.32em;
+  margin: 0;
+}
+
+.cotw_header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  max-height: 300px;
+  overflow-y: hidden;
+
+  @include bp-large {
+    max-height: 380px;
+  }
+}
+
+.cotw_header--attributes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: inherit;
+  padding: 1em 0;
+  margin: 0;
+
+  @include bp-large {
+    width: 65%;
+    padding: 2em 1em;
+  }
+}
+
+.cotw_header--attributes-item {
+  width: calc(50% - 0.8em);
+  flex-grow: 1;
+  padding: 0 0 1em 0;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+
+  .attributes-item_score {
+    @include font-size(60px);
+    @include bp-large {
+      @include font-size(72px);
+    }
+  }
+
+  .attributes-item_flag {
+    max-width: 90px;
+    @include bp-large {
+      max-width: 120px;
+    }
+  }
+
+  .attributes-item_strength {
+    max-width: 78px;
+    @include bp-large {
+      max-width: 98px;
+    }
+  }
+
+  .attributes-item_label {
+    @include font-size(13px);
+    @include bp-large {
+      @include font-size(15px);
+    }
+  }
+}
+
+.cotw_header--image {
+  width: inherit;
+
+  @include bp-large {
+    width: 35%;
+  }
+}

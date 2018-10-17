@@ -1,0 +1,104 @@
+/* ================ HEADER ================ */
+
+header {
+  padding: 0 0 16px 0;
+  margin: 0;
+  background-image: url($header-background);
+  background-color: $brown-color;
+
+  @include bp-small {
+    padding: 12px 0 22px;
+  }
+}
+
+header a {
+  @extend .transition;
+  color: $white-color;
+  text-decoration: none;
+
+  &:active,
+  &:focus,
+  &:visited {
+    color: $white-color;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $gold-color;
+    text-decoration: none;
+  }
+}
+
+.header-flex {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+
+  @include bp-medium {
+    flex-flow: row nowrap;
+  }
+}
+
+.header-flex_logo {
+  padding: 16px 0 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+
+  @include bp-small {
+    padding-top: 0;
+  }
+
+  @include bp-large {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.header-flex_logo a {
+  display: block;
+}
+
+.header-flex_meta {
+  padding: 0;
+  margin: 0.56em auto 0;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+
+  @include bp-small {
+    margin: 0 auto;
+    width: inherit;
+  }
+}
+
+.header-flex_logo svg {
+  fill: $white-color;
+  margin: 0;
+  padding: 0;
+  max-width: 188px;
+
+  @include bp-small {
+    max-width: 308px;
+    margin-top: 0.36em;
+  }
+}
+
+.header-flex_logo img {
+  max-width: 344px;
+  height: auto;
+}
+
+.header-flex_meta-link {
+  padding: 0;
+  margin: 0 0 0 1em;
+  text-shadow: 1px 1px 0 $black-color;
+  line-height: 2;
+  @include bp-small {
+    line-height: $base-line-height;
+  }
+}

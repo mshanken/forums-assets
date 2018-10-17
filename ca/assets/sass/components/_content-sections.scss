@@ -1,0 +1,26 @@
+/* ================ CONTENT SECTIONS ================ */
+
+.main-content {
+  @extend .section;
+  background-color: $white-color;
+  padding: 1em 0;
+  min-height: 75vh;
+}
+
+#hp-default {
+  padding-bottom: 0;
+}
+
+#category-landing,
+#tag-listing,
+#search-results,
+#page-default,
+#news-listing,
+#connoisseurscorner-feature,
+#connoisseurscorner,
+#glossary-listing,
+#article-* {
+  @include bp-medium {
+    padding: 0 0 1.56em 0;
+  }
+}
