@@ -1,6 +1,6 @@
 /* ================ HEADER ================ */
 
-header {
+header.ca {
   padding: 0 0 16px 0;
   margin: 0;
   background-image: url($header-background);
@@ -11,7 +11,7 @@ header {
   }
 }
 
-header a {
+header.ca a {
   @extend .transition;
   color: $white-color;
   text-decoration: none;

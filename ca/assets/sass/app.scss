@@ -34,8 +34,8 @@
 @import "components/layout";
 
 /* @import "components/tab-feature";
-@import "components/content-sections"; */
-@import "components/content-card";
+@import "components/content-sections";
+@import "components/content-card"; */
 /* @import "components/section-headers"; */
 
 @import "components/advertisements";
@@ -96,12 +96,10 @@
 @import "components/user"; */
 @import "components/footer";
 
-@import "components/iab-flexszer";
+/* @import "components/iab-flexszer"; */
 
 
 footer h2, footer .fa{ color: #fff; }
-#pageContentContainer header{ background-image: none; background-color: #fff; }
-header#siteHeader{ padding-bottom: 0; }
 .fixed{ top:33px !important; }
 .main-search input {
     border: none !important;
@@ -115,3 +113,4 @@ header#siteHeader{ padding-bottom: 0; }
     width: 100% !important;
     height: 30px !important;
 }
+.mce-container iframe{ height: 150px !important; }

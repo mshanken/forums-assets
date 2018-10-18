@@ -80,20 +80,20 @@ CLUSTER: db036
             </head>
 
 <body>
-    <header role="banner" data-scroll-index="0">
+    <header class="ca" role="banner" data-scroll-index="0">
 	  <div class="collapse" id="collapseSearchMobile">
-	    <form id="mobileSearch" name="mobileSearch" action="/search">
+	    <form id="mobileSearch" name="mobileSearch" action="https://www.cigaraficionado.com/search">
 		<div class="main-search" role="search">
 			<input type="search" id="mobile-search-input" value="" placeholder="Search Articles" name="q" autocomplete="off">
 			<button type="submit" name="main-mobile-search" value="main mobile search" tabindex="0" aria-label="mobile search submit"><i class="fa fa-search"></i></button>
 		</div>
 		<div class="search-toggle">
 			<label class="active-toggle">
-				<input type="radio" id="articlesRadioMobile" value="articles" onclick="document.getElementById('mobileSearch').action='/search'; document.getElementById('mobile-search-input').name='q'; document.getElementById('mobile-search-input').placeholder='Search Articles'; document.getElementById('hiddenInputMobes').name=''; document.getElementById('hiddenInputMobes').value='';" /> find articles
+				<input type="radio" id="articlesRadioMobile" value="articles" onclick="document.getElementById('mobileSearch').action='https://www.cigaraficionado.com/search'; document.getElementById('mobile-search-input').name='q'; document.getElementById('mobile-search-input').placeholder='Search Articles'; document.getElementById('hiddenInputMobes').name=''; document.getElementById('hiddenInputMobes').value='';" /> find articles
 			</label>
 			<label>
 				<input id="hiddenInputMobes" type="hidden" name="" value="">
-				<input type="radio" id="ratingsRadioMobile" value="ratings" onclick="document.getElementById('mobileSearch').action='/ratings/search'; document.getElementById('mobile-search-input').name='brand'; document.getElementById('hiddenInputMobes').name='submitted'; document.getElementById('hiddenInputMobes').value='Y'; document.getElementById('mobile-search-input').placeholder='Search Ratings';" /> find ratings
+				<input type="radio" id="ratingsRadioMobile" value="ratings" onclick="document.getElementById('mobileSearch').action='https://www.cigaraficionado.com/ratings/search'; document.getElementById('mobile-search-input').name='brand'; document.getElementById('hiddenInputMobes').name='submitted'; document.getElementById('hiddenInputMobes').value='Y'; document.getElementById('mobile-search-input').placeholder='Search Ratings';" /> find ratings
 			</label>
 		</div><!-- /.search-toggle -->
 	</form>
@@ -119,7 +119,7 @@ CLUSTER: db036
 	          </div><!-- /.header-flex_logo -->
 	          <div class="header-flex_meta">
 	            <a class="header-flex_meta-link hidden-xs" role="button" data-toggle="collapse" href="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch"><i class="fa fa-search"></i> Search</a>
-	            <a class="header-flex_meta-link hidden-xs" role="button" href="/subscribe" title="Subscribe to Cigar Aficionado">Subscribe</a>
+	            <a class="header-flex_meta-link hidden-xs" role="button" href="https://www.cigaraficionado.com/subscribe" title="Subscribe to Cigar Aficionado">Subscribe</a>
 
 	            <a class="header-flex_meta-link visible-xs-inline" role="button" data-toggle="collapse" href="#collapseSearchMobile" aria-expanded="false" aria-controls="collapseSearchMobile"><i class="fa fa-search"></i> Search</a>
 	            <a class="header-flex_meta-link visible-xs-inline" role="button" href="https://www.cigaraficionado.com/subscribe" title="Subscribe to Cigar Aficionado">Subscribe</a>
@@ -132,11 +132,11 @@ CLUSTER: db036
 		</div>
 		<div class="search-toggle">
 			<label class="active-toggle">
-				<input type="radio" id="articlesRadio" value="articles" onclick="document.getElementById('mainSearch').action='/search'; document.getElementById('main-search-input').name='q'; document.getElementById('main-search-input').placeholder='Search Articles'; document.getElementById('hiddenInput').name=''; document.getElementById('hiddenInput').value='';" /> find articles
+				<input type="radio" id="articlesRadio" value="articles" onclick="document.getElementById('mainSearch').action='https://www.cigaraficionado.com/search'; document.getElementById('main-search-input').name='q'; document.getElementById('main-search-input').placeholder='Search Articles'; document.getElementById('hiddenInput').name=''; document.getElementById('hiddenInput').value='';" /> find articles
 			</label>
 			<label>
 				<input id="hiddenInput" type="hidden" name="" value="">
-				<input type="radio" id="ratingsRadio" value="ratings" onclick="document.getElementById('mainSearch').action='/ratings/search'; document.getElementById('main-search-input').name='brand'; document.getElementById('hiddenInput').name='submitted'; document.getElementById('hiddenInput').value='Y'; document.getElementById('main-search-input').placeholder='Search Ratings';" /> find ratings
+				<input type="radio" id="ratingsRadio" value="ratings" onclick="document.getElementById('mainSearch').action='https://www.cigaraficionado.com/ratings/search'; document.getElementById('main-search-input').name='brand'; document.getElementById('hiddenInput').name='submitted'; document.getElementById('hiddenInput').value='Y'; document.getElementById('main-search-input').placeholder='Search Ratings';" /> find ratings
 			</label>
 		</div><!-- /.search-toggle -->
 	</form>
@@ -930,9 +930,9 @@ CLUSTER: db036
 
 <!-- footer -->
 
-<footer role="contentinfo" data-scroll-index="1">
-  <div class="container-fluid">
-    <div class="row">
+<footer class="ca" role="contentinfo" data-scroll-index="1">
+  <div class="ca-container-fluid">
+    <div class="ca-row">
       <div class="col-xs-12">
         <div class="footer_social">
           <div class="footer_social-label">Follow Us On:</div>
@@ -960,7 +960,7 @@ CLUSTER: db036
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-    <div class="row">
+    <div class="ca-row">
       <div class="col-xs-12 col-sm-3 col-md-2">
         <h2 class="footer_heading">Help</h2>
         <div class="ca-row hidden-sm hidden-md hidden-lg">
